@@ -19,3 +19,16 @@ test("Adds 2 + 2 to NOT equal 5", () => {
 test("Should be null", () => {
   expect(functions.isNull()).toBeNull();
 });
+
+// toBeFalsy
+test("Should be falsy", () => {
+  expect(functions.checkValue(undefined)).toBeFalsy();
+});
+
+// toEqual
+test("User should be Anthony Mendola object", () => {
+  expect(functions.createUser()).toEqual({
+    firstName: "Anthony",
+    lastName: "Mendola"
+  });
+});
