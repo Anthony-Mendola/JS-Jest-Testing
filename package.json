@@ -1,0 +1,19 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "Jest Testing Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthony-Mendola/JS-Jest-Testing.git"
+  },
+  "author": "Anthony Mendola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthony-Mendola/JS-Jest-Testing/issues"
+  },
+  "homepage": "https://github.com/Anthony-Mendola/JS-Jest-Testing#readme"
+}
